@@ -9,7 +9,7 @@ const About = () => {
         <HorizonLine text="Me"/>
       <br />
       <div className="font-bold">
-        <p>Strong</p>
+        <p>Poem</p>
       </div>
       <br />
       <div className="container text-left text-xl font-medium">

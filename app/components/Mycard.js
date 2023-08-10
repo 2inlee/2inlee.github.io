@@ -6,9 +6,9 @@ const Mycard = () => {
   return (
     <div className="flex bg-gradient-to-tr from-red-300 to-blue-500 rounded-lg shadow-md p-4 mx-auto max-w-[80%]">
       {/* Popped-out Image */}
-      <div className="relative -left-14 w-36 h-[200px] rounded-md overflow-hidden shadow-lg">
+      <div className="relative -left-14 w-[40%] sm:w-[25%] md:w-[20%] h-[200px] sm:h-auto rounded-md overflow-hidden shadow-lg">
         <Image
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover absolute"
           src={ProfilePhoto}
           alt="Inho Lee Photo"
         />
@@ -25,6 +25,9 @@ const Mycard = () => {
         <br />
         Various projects are underway to solve social problems.
         </p>
+        <br />
+        <br />
+        <p>- Wevement Team Leader, DMU PD Lab MIT President, DMU ComputerSoftwareEngineering B.S.</p>
       </div>
     </div>
   );
