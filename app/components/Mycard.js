@@ -1,29 +1,29 @@
 'use client';
 import ProfilePhoto from '/public/img/inlee_photo.png'
 import Image from 'next/image';
-import Link from 'next/link';
+
 const Mycard = () => {
   return (
-    <div className="flex bg-gradient-to-tr from-red-300 to-blue-500 rounded-lg shadow-md p-4 mx-auto max-w-[80%]">
+    <div className="flex flex-col md:flex-row bg-gradient-to-r from-red-300 to-blue-500 rounded-lg shadow-md p-4 mx-auto max-w-[80%] max-h-72 object-cover">
       {/* Popped-out Image */}
-      <div className="relative -left-14 w-[40%] sm:w-[25%] md:w-[20%] h-[200px] sm:h-auto rounded-md overflow-hidden shadow-lg">
+      <div className="relative md:-left-14 w-full md:w-[40%] h-[60%] md:min-h-[90%] md:max-h-72 rounded-md overflow-hidden shadow-lg mb-4 md:mb-0">
         <Image
-          className="h-full w-full object-cover absolute"
+          className="object-cover rounded-md shadow-md"
           src={ProfilePhoto}
           alt="Inho Lee Photo"
         />
       </div>
 
       {/* Introduction */}
-      <div className="ml-6 text-white">
+      <div className="ml-0 md:ml-6 text-white">
         <h2 className="text-3xl font-semibold mb-2">Inho Lee</h2>
         <p className="text-gray-200 mb-1">Project Manager / Back-end Developer</p>
         <p className="text-gray-100">
-        Hi, I am a passionate Project Manager.
-        <br />
-        I try to solve various problems in society through technology.
-        <br />
-        Various projects are underway to solve social problems.
+          Hi, I am a passionate Project Manager.
+          <br />
+          I try to solve various problems in society through technology.
+          <br />
+          Various projects are underway to solve social problems.
         </p>
         <br />
         <br />
@@ -34,3 +34,4 @@ const Mycard = () => {
 };
 
 export default Mycard;
+

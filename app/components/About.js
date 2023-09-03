@@ -1,4 +1,3 @@
-'use client';
 import HorizonLine from "../utils/HorizonLine";
 
 const About = () => {
