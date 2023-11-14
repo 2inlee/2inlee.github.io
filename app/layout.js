@@ -6,6 +6,7 @@ import Intorduce from './components/Introduce';
 import Techlist from './components/Techlist';
 import Background from './components/Background';
 import About from './components/About';
+import Project from './components/Project';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <Intorduce></Intorduce>
         <Mycard></Mycard>
         {children}
+        <Project></Project>
         <About></About>
         <Background></Background>
         <Techlist></Techlist>

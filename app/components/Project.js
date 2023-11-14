@@ -1,38 +1,61 @@
+'use client';
 import HorizonLine from "../utils/HorizonLine";
+import Carousel from 'react-bootstrap/Carousel';
+import Image from "next/image";
+
 
 const Project = () => {
   return (
       <div className="container text-left text-4xl mx-auto max-w-[80%] font-extrabold">
       <div className="mt-40" />
-        <p>About</p>
-        <HorizonLine text="Me"/>
+        <p>Project</p>
+        <HorizonLine text="With"/>
       <br />
       <div className="font-bold">
-        <p>Poem</p>
+        <p>Me</p>
       </div>
       <br />
-      <div className="container text-left text-xl font-medium">
-        <p>I am a computer software engineering student who loves literature more than anyone else.
-          <br />
-          <br />
-          I like to read books and write.
-          <br />
-          But I found that developing is not much different from reading books and writing.
-          <br />
-          <br />
-          Some people say that development is hard and mechanical
-          I think the process of coding line by line is no different from writing, drawing, and speaking logically.
-          <br />
-          You think more to write better poems, and you think more to write better codes like you're refining the context over and over again.
-          <br />
-          <br />
-          I think the only difference between art and development is the speed of how quickly it can change the world.
-          <br />
-          <br />
-          I am an artist who wants to change into a better world.</p>
-      </div>
+        <div className="container text-left text-xl font-medium">
+          <Carousel>
+            <Carousel.Item interval={1000}>
+              <Image
+              src="/img/inlee_photo.png"
+              width={500}
+              height={500}
+              />
+              <Carousel.Caption>
+                <h3>First slide label</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+              <Image
+                src="/img/inlee_photo.png"
+                width={500}
+                height={500}
+                />
+              <Carousel.Caption>
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image
+                src="/img/inlee_photo.png"
+                width={500}
+                height={500}
+                />
+              <Carousel.Caption>
+              <h3>Third slide label</h3>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div>
       <br />
-      </div>
+    </div>
   );
 };
 
