@@ -11,8 +11,8 @@ const navigation = [
   { name: 'Project', href: '#' },
   { name: 'About', href: '#' },
   { name: 'Tech', href: '#' },
-  { name: 'Blog', href: '#' },
-  { name: 'Team', href: '#' },
+  { name: 'Blog', href: 'https://2inlee.github.io' },
+  { name: 'Team', href: 'https://wevement.com' },
 ]
 
 const Header = () => {

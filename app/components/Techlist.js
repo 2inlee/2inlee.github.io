@@ -11,7 +11,7 @@ const Techlist = () => {
       </div>
       <br />
       <div className="container text-left font-medium">
-        <p>Spring, Next.js, Flask, Python, C(99)</p>
+        <p>Spring, Nest.js, Flask, Python, C</p>
       </div>
       <br />
       <div className="font-bold">
@@ -19,7 +19,7 @@ const Techlist = () => {
       </div>
       <br />
       <div className="container text-left font-medium">
-        <p>ML(ComputerVision, RNN, CNN),Prompt Engineering, Typescript, Arduino, C#, Cpp, FastAPI, Vue.js, React.js, Tensorflow, Nest.js, Flutter</p>
+        <p>ML(ComputerVision, RNN, CNN),Prompt Engineering, Typescript, Arduino, C#, Cpp, FastAPI, Vue.js, React.js, Tensorflow, Next.js, Flutter</p>
       </div> 
       <br />
       <div className="font-bold">
@@ -27,7 +27,7 @@ const Techlist = () => {
       </div>
       <br />
       <div className="container text-left font-medium">
-        <p>Git, Docker, Kubernetes, Nginx, Figma, Edrawmax, AWS EC2/S3, Notion</p>
+        <p>Git, Docker, Kubernetes, Nginx, Figma, Edrawmax, AWS EC2/S3, Notion, Linux</p>
       </div>
     </div>
   );
