@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <Mycard></Mycard>
         {children}
         {/* <Project></Project> */}
-        <About></About>
+        <About></About> 
         <Background></Background>
         <Techlist></Techlist>
         <Footer></Footer>
