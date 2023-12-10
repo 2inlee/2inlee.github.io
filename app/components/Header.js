@@ -27,7 +27,7 @@ const Header = () => {
               <span className="sr-only">Wevement</span>
               <Image
                 className="h-8 w-auto"
-                src={Logo}
+                src={process.env.BACKEND_URL + '/wevement_logo_simbol_only.png'}
                 alt=""
               />
             </a>

@@ -10,7 +10,7 @@ const Mycard = () => {
       <div className="relative -left-14 w-[40%] sm:w-[25%] md:w-[20%] h-[200px] sm:h-auto rounded-md overflow-hidden shadow-lg">
         <Image
           className="h-full w-full object-cover absolute"
-          src={ProfilePhoto}
+          src={process.env.BACKEND_URL + '/inlee_photo.png'}
           alt="Inho Lee Photo"
         />
       </div>
