@@ -4,8 +4,6 @@ import Image from 'next/image';
 import Logo from '/public/img/wevement_logo_simbol_only.png'
 import 'tailwindcss/tailwind.css'
 import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Project', href: '#' },
@@ -27,8 +25,10 @@ const Header = () => {
               <span className="sr-only">Wevement</span>
               <Image
                 className="h-8 w-auto"
-                src={process.env.BACKEND_URL + '/wevement_logo_simbol_only.png'}
-                alt=""
+                src={Logo}
+                alt="Inlee's Photo"
+                width={100}
+                height={100}
               />
             </a>
           </div>
@@ -39,7 +39,6 @@ const Header = () => {
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
@@ -55,9 +54,6 @@ const Header = () => {
             </Link>
           </div>
         </nav>
-        <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-          <div className="fixed inset-0 z-50" />
-          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Wevement</span>
@@ -73,7 +69,6 @@ const Header = () => {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
-                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
               </button>
             </div>
             <div className="mt-6 flow-root">
@@ -99,9 +94,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-          </Dialog.Panel>
-        </Dialog>
-      </header>
+        </header>
       <div className="mt-40">
       </div>
     </div>

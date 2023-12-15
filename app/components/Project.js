@@ -1,6 +1,5 @@
 'use client';
 import HorizonLine from "../utils/HorizonLine";
-import Carousel from 'react-bootstrap/Carousel';
 import Image from "next/image";
 
 
