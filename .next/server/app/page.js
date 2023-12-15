@@ -196,7 +196,7 @@ module.exports = require("next/dist/shared/lib/side-effect.js");
 
 /***/ }),
 
-/***/ 8245:
+/***/ 9232:
 /***/ ((module) => {
 
 "use strict";
@@ -212,7 +212,7 @@ module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
-/***/ 4511:
+/***/ 8711:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -258,7 +258,7 @@ __webpack_require__.r(__webpack_exports__);
         {
           'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9142)), "/Users/inlee/Desktop/workspace/inlee_site/inlee_site/app/layout.js"],
           metadata: {
-    icon: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 937))],
+    icon: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1336))],
     apple: [],
     opengraph: [],
     twitter: [],
@@ -285,22 +285,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 8024:
+/***/ 3126:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5958, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8950, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2513, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1551, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 411));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6859));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3551))
 
 /***/ }),
 
-/***/ 475:
+/***/ 9321:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3551));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6859));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 411))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2513, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1551, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8950, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5958, 23))
 
 /***/ }),
 
@@ -654,7 +654,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 937:
+/***/ 1336:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -662,7 +662,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"url":"/inlee_site/_next/static/media/metadata/favicon.ddfed449.ico","type":"image/x-icon","sizes":"any"});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"url":"/inlee_site//_next/static/media/metadata/favicon.ddfed449.ico","type":"image/x-icon","sizes":"any"});
 
 /***/ }),
 
@@ -687,7 +687,7 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 var next_image = __webpack_require__(8421);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./public/img/wevement_logo_simbol_only.png
-/* harmony default export */ const wevement_logo_simbol_only = ({"src":"/inlee_site/_next/static/media/wevement_logo_simbol_only.ddfed449.png","height":209,"width":209,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAb1BMVEVDgf82avk0ZvAyY+kAAAAnT74AAAAAAAAAAAAAAAAAAAAAAABcrP8iR60AAAAAAAAAAAA3a/sAAAA2avkAAAABBRkQJ2Y3a/oAAAAAAg0AAAAAAAAAAQgAAAA2avkAAAAAAAAAAAAAAAAAAAAAAAC81bS3AAAAJXRSTlMAAAAAAAEBAgMEBQcICQ8QFhooKUdNZoWKmLG8wsLGzc7R0+/yrqLi+gAAAEJJREFUeNoNxsUBgDAABMEDlgSX4K791wjzGgH4deMJkjwY9j/FvL59hgzunuSHIj2erSMSuOusMCJeRrCIssVY+ABvjgMXUBzT/gAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
+/* harmony default export */ const wevement_logo_simbol_only = ({"src":"/inlee_site//_next/static/media/wevement_logo_simbol_only.ddfed449.png","height":209,"width":209,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAb1BMVEVDgf82avk0ZvAyY+kAAAAnT74AAAAAAAAAAAAAAAAAAAAAAABcrP8iR60AAAAAAAAAAAA3a/sAAAA2avkAAAABBRkQJ2Y3a/oAAAAAAg0AAAAAAAAAAQgAAAA2avkAAAAAAAAAAAAAAAAAAAAAAAC81bS3AAAAJXRSTlMAAAAAAAEBAgMEBQcICQ8QFhooKUdNZoWKmLG8wsLGzc7R0+/yrqLi+gAAAEJJREFUeNoNxsUBgDAABMEDlgSX4K791wjzGgH4deMJkjwY9j/FvL59hgzunuSHIj2erSMSuOusMCJeRrCIssVY+ABvjgMXUBzT/gAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
 // EXTERNAL MODULE: ./node_modules/tailwindcss/tailwind.css
 var tailwind = __webpack_require__(8484);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
@@ -753,7 +753,7 @@ const Header = ()=>{
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             className: "h-8 w-auto",
-                                            src: wevement_logo_simbol_only,
+                                            src: process.env.BACKEND_URL + "/wevement_logo_simbol_only.png",
                                             alt: ""
                                         })
                                     ]
@@ -904,7 +904,7 @@ __webpack_require__.d(__webpack_exports__, {
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(6786);
 ;// CONCATENATED MODULE: ./public/img/inlee_photo.png
-/* harmony default export */ const inlee_photo = ({"src":"/inlee_site/_next/static/media/inlee_photo.5d03f650.png","height":1258,"width":997,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAIAAABVpBlvAAAAoklEQVR42mOYObGlqjjTQEtVRUlBSEREUEiYYdbkjtDwUAYGAQYOIWFhMSEhUYZl8yZZO3paGpsmeTtw8YhwcQkxFKaEe3u6VFdUVsYGMPAKGpqZMigwMNQVpc5sLVUXYghzNW8szWAQYmDYsmbm4e2LArVYEtyMsxLCGVQUpBUk+BgYmG1VJSeUxdbmhDJk28vbKQk7aMvObc2qzQzMj3IBAAdeJuFVtIdEAAAAAElFTkSuQmCC","blurWidth":6,"blurHeight":8});
+/* harmony default export */ const inlee_photo = ({"src":"/inlee_site//_next/static/media/inlee_photo.5d03f650.png","height":1258,"width":997,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAIAAABVpBlvAAAAoklEQVR42mOYObGlqjjTQEtVRUlBSEREUEiYYdbkjtDwUAYGAQYOIWFhMSEhUYZl8yZZO3paGpsmeTtw8YhwcQkxFKaEe3u6VFdUVsYGMPAKGpqZMigwMNQVpc5sLVUXYghzNW8szWAQYmDYsmbm4e2LArVYEtyMsxLCGVQUpBUk+BgYmG1VJSeUxdbmhDJk28vbKQk7aMvObc2qzQzMj3IBAAdeJuFVtIdEAAAAAElFTkSuQmCC","blurWidth":6,"blurHeight":8});
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(8421);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
@@ -920,7 +920,7 @@ const Mycard = ()=>{
                 className: "relative -left-14 w-[40%] sm:w-[25%] md:w-[20%] h-[200px] sm:h-auto rounded-md overflow-hidden shadow-lg",
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     className: "h-full w-full object-cover absolute",
-                    src: inlee_photo,
+                    src: process.env.BACKEND_URL + "/inlee_photo.png",
                     alt: "Inho Lee Photo"
                 })
             }),
@@ -1113,7 +1113,7 @@ const Project = ()=>{
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [397], () => (__webpack_exec__(4511)));
+var __webpack_exports__ = __webpack_require__.X(0, [397], () => (__webpack_exec__(8711)));
 module.exports = __webpack_exports__;
 
 })();
