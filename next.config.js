@@ -4,6 +4,9 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '',
-  output: 'export',
-}
-module.exports = nextConfig
+  output: {
+    dir: 'standalone',
+  },
+};
+
+module.exports = nextConfig;
