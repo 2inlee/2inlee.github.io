@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Project', href: '#project' },
   { name: 'About', href: '#about' },
   { name: 'Tech', href: '#tech' },
-  { name: 'Blog', href: 'https://2inlee.github.io' },
+  { name: 'Blog', href: 'https://blog.inlee.kr' },
   { name: 'Team', href: 'https://wevement.com' },
 ]
 
