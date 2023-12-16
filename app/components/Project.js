@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Project = () => {
   return (
-      <div className="container text-left text-4xl mx-auto max-w-[80%] font-extrabold">
+      <div id="project" className="container text-left text-4xl mx-auto max-w-[80%] font-extrabold">
       <div className="mt-40" />
         <p>Project</p>
         <HorizonLine text="With"/>

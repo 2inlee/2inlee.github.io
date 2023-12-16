@@ -8,9 +8,9 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Project', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Tech', href: '#' },
+  { name: 'Project', href: '#project' },
+  { name: 'About', href: '#about' },
+  { name: 'Tech', href: '#tech' },
   { name: 'Blog', href: 'https://2inlee.github.io' },
   { name: 'Team', href: 'https://wevement.com' },
 ]

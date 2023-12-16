@@ -2,7 +2,7 @@ import HorizonLine from "../utils/HorizonLine";
 
 const Techlist = () => {
   return (
-    <div className="container text-left text-4xl mx-auto max-w-[80%] font-extrabold">
+    <div id= "tech" className="container text-left text-4xl mx-auto max-w-[80%] font-extrabold">
         <p>Tech</p>
         <HorizonLine text="List"/>
       <br />

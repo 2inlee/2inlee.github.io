@@ -2,7 +2,7 @@ import HorizonLine from "../utils/HorizonLine";
 
 const About = () => {
   return (
-      <div className="container text-left text-4xl mx-auto max-w-[80%] font-extrabold">
+      <div id="about" className="container text-left text-4xl mx-auto max-w-[80%] font-extrabold">
       <div className="mt-40" />
         <p>About</p>
         <HorizonLine text="Me"/>
