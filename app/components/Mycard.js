@@ -20,9 +20,9 @@ const Mycard = () => {
       {/* Introduction */}
       <div className="ml-6 text-white">
         <h2 className="text-3xl font-semibold mb-2">Inho Lee</h2>
-        <p className="text-gray-200 mb-1">Project Manager / Back-end Developer</p>
+        <p className="text-gray-200 mb-1">Back-end Developer / Project Manager</p>
         <p className="text-gray-100">
-        Hi, I am a passionate Project Manager.
+        Hi, I am a passionate Software Engineer.
         <br />
         I try to solve various problems in society through technology.
         <br />
@@ -30,7 +30,7 @@ const Mycard = () => {
         </p>
         <br />
         <br />
-        <p>- Wevement Team Leader, DMU PD Lab MIT President, DMU ComputerSoftwareEngineering B.S.</p>
+        <p>- Wevement Team Leader, 2023 DMU PD Lab MIT Leader, DMU ComputerSoftwareEngineering B.S.</p>
       </div>
     </div>
   );

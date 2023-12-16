@@ -10,24 +10,32 @@ const Techlist = () => {
         <p>Strong</p>
       </div>
       <br />
-      <div className="container text-left font-medium">
-        <p>Spring, Nest.js, Flask, Python, C</p>
+      <div className="container text-left font-medium text-2xl">
+        <p>BE | Spring[JPA], Nest.js[TypeORM], Flask, RDBMS[MySQL, PostgreSQL]</p>
+        <br/>
+        <p>FE | Next.js, React.js</p>
       </div>
       <br />
       <div className="font-bold">
         <p>Knowledgeable</p>
       </div>
       <br />
-      <div className="container text-left font-medium">
-        <p>ML(ComputerVision, RNN, CNN),Prompt Engineering, Typescript, Arduino, C#, Cpp, FastAPI, Vue.js, React.js, Tensorflow, Next.js, Flutter</p>
+      <div className="container text-left font-medium text-2xl">
+      <p>BE | Node.js, Django, FastAPI, NoSQL[Redis, Firebase] </p>
+      <br/>
+      <p>FE | Andorid Jetpack Compose, Flutter, Vue.js</p>
+      <br/>
+      <p>Utils | ChatGPT API, Prompt Engineering, Langchain, Arduino, C, C#, C++, Tensorflow</p>
       </div> 
       <br />
       <div className="font-bold">
         <p>ETC</p>
       </div>
       <br />
-      <div className="container text-left font-medium">
-        <p>Git, Docker, Kubernetes, Nginx, Figma, Edrawmax, AWS EC2/S3, Notion, Linux</p>
+      <div className="container text-left font-medium text-2xl">
+        <p>Dev | Git, Docker, Kubernetes, Nginx, Linux, CloudFlare, AWS EC2/S3 </p>
+        <br/>
+        <p>PM | Figma, Edrawmax, Notion, Jira</p>
       </div>
     </div>
   );
