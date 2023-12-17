@@ -23,7 +23,7 @@ const Techlist = () => {
       <div className="container text-left font-medium text-2xl">
       <p>BE | Node.js, Django, FastAPI, NoSQL[Redis, Firebase] </p>
       <br/>
-      <p>FE | Andorid Jetpack Compose, Flutter, Vue.js</p>
+      <p>FE | Android Jetpack Compose, Flutter, Vue.js</p>
       <br/>
       <p>Utils | ChatGPT API, Prompt Engineering, Langchain, Arduino, C, C#, C++, Tensorflow</p>
       </div> 
