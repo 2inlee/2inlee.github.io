@@ -31,6 +31,8 @@ const Mycard = () => {
         <br />
         <br />
         <p>- Wevement Team Leader, 2023 DMU PD Lab MIT Leader, DMU ComputerSoftwareEngineering B.S.</p>
+        <p>- 2020.06.22 ~ 2022.12.21 ROKA (Republic of Korea Army)</p>
+        <p>   Awarded Division and Brigade Commander's Commendations</p>
       </div>
     </div>
   );
