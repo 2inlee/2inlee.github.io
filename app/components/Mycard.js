@@ -7,7 +7,7 @@ const Mycard = () => {
   return (
     <div className="flex bg-gradient-to-tr from-red-300 to-blue-500 rounded-lg shadow-md p-4 mx-auto max-w-[80%] {styles.card-style}">
       {/* Popped-out Image */}
-      <div className="relative -left-14 w-[40%] sm:w-[25%] md:w-[20%] h-[200px] sm:h-auto rounded-md overflow-hidden shadow-lg">
+      <div className="relative -left-14 w-[40%] sm:w-[25%] md:w-[20%] sm:w-auto rounded-md overflow-hidden shadow-lg">
         <Image
           className="h-full w-full object-cover absolute"
           src={ProfilePhoto}
@@ -29,10 +29,10 @@ const Mycard = () => {
         Various projects are underway to solve social problems.
         </p>
         <br />
-        <br />
         <p>- Wevement Team Leader, 2023 DMU PD Lab MIT Leader, DMU ComputerSoftwareEngineering B.S.</p>
-        <p>- 2020.06.22 ~ 2022.12.21 ROKA (Republic of Korea Army)</p>
-        <p>   Awarded Division and Brigade Commander's Commendations</p>
+        <p>- 2020.06.22 ~ 2022.12.21 ROKA (Republic of Korea Army)
+        <br />
+           Awarded Division and Brigade Commander's Commendations</p>
       </div>
     </div>
   );

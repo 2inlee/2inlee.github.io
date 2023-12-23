@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <Intorduce></Intorduce>
         <Mycard></Mycard>
         {children}
-        {/* <Project></Project> */}
+        <Project></Project>
         <About></About> 
         <Background></Background>
         <Techlist></Techlist>
