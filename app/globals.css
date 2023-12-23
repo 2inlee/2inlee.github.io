@@ -35,3 +35,7 @@ body {
   height: 100%;
   align-items: center;
 }
+
+.carousel-black .carousel-caption {
+  color: black !important;
+}
