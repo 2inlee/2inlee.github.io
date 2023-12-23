@@ -23,26 +23,24 @@ const Project = () => {
       <div className='carousel-container'>
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
-          <Image src='/img/CPR_Kiosk.png' alt='CPR_Kiosk' width={1440} height={180}/>
+          <Image src='/img/CPR_Kiosk.png' alt='CPR_Kiosk' width={800} height={180}/>
           <Carousel.Caption>
-            <h3>교육용 CPR키오스</h3>
-            <p>안드로이드앱 메인개발자 - 경북도청 납품</p>
+            <h3>교육용 CPR키오스크</h3>
+            <p>경북도청 납품 - 안드로이드앱 메인개발자</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <Image src='/img/wevement_logo_simbol_only.png' alt='설명'  width={540} height={180}/>
+          <Image src='/img/Aily.png' alt='Aily'  width={800} height={180}/>
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Aily - AI 자동 쓰레기분리수거기기</h3>
+            <p>2023KES 출품작 - Team Leader</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <Image src='/img/wevement_logo_simbol_only.png' alt='설명'  width={540} height={180}/>
+          <Image src='/img/Codelearn.png' alt='Codelearn'  width={800} height={180}/>
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>코드런 - Codelearn</h3>
+            <p>2023 SKT Prompter Day / 2023 신산업 성과포럼 출품작</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
