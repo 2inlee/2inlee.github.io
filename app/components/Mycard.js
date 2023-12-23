@@ -29,8 +29,8 @@ const Mycard = () => {
         Various projects are underway to solve social problems.
         </p>
         <br />
-        <p>- Wevement Team Leader, 2023 DMU PD Lab MIT Leader, DMU ComputerSoftwareEngineering B.S.</p>
-        <p>- 2020.06.22 ~ 2022.12.21 ROKA (Republic of Korea Army)
+        <p>- DMU ComputerSoftwareEngineering B.S. / 2023 DMU PD Lab MIT Leader</p>
+        <p>- 2020.06.22 ~ 2022.12.21 ROKA (Republic of Korea Army) / Radar Operational Maintenance
         <br />
            Awarded Division and Brigade Commander's Commendations</p>
       </div>
